@@ -1,5 +1,5 @@
 function Part1()
-    local file = io.open( "../dec3.input", "r" )
+    local file = io.open( "../inputs/dec3.input", "r" )
     if not file then error("") end
     local content = file:read("*a")
     file:close()
@@ -50,7 +50,7 @@ function Part1()
 end
 
 function Part2()
-    local file = io.open( "../dec3.input", "r" )
+    local file = io.open( "../inputs/dec3.input", "r" )
     if not file then error("") end
     local content = file:read("*a")
     file:close()

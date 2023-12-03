@@ -7,7 +7,7 @@ fn main() {
 
 fn part1() {
     let mut sum = 0;
-    let input = std::fs::read_to_string("../dec1.input").unwrap();
+    let input = std::fs::read_to_string("../inputs/dec1.input").unwrap();
     for line in input.lines() {
         let digits = line.chars().filter(|c| c.is_digit(10));
         let first = digits.clone().next().unwrap();
@@ -26,7 +26,7 @@ fn part2() {
         }
     }
     let mut sum = 0;
-    let input = std::fs::read_to_string("../dec1.input").unwrap();
+    let input = std::fs::read_to_string("../inputs/dec1.input").unwrap();
     let regex_string = r"1|2|3|4|5|6|7|8|9|one|two|three|four|five|six|seven|eight|nine";
     for line in input.lines() {
         let first = Regex::new(regex_string).unwrap().find(line).unwrap().as_str();

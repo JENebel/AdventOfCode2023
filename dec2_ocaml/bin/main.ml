@@ -1,6 +1,6 @@
 let part1 () =
   let lines = ref [] in
-  let in_file = open_in "../dec2.input" in
+  let in_file = open_in "../inputs/dec2.input" in
   try
     while true do
       lines := (input_line in_file) :: !lines
@@ -50,7 +50,7 @@ in
 
 let part2 () =
   let lines = ref [] in
-  let in_file = open_in "../dec2.input" in
+  let in_file = open_in "../inputs/dec2.input" in
   try
     while true do
       lines := (input_line in_file) :: !lines
