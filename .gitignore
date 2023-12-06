@@ -1,2 +1,5 @@
 */target
 */_build
+*.o
+*/dec5
+*/dec6

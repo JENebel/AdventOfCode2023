@@ -23,7 +23,7 @@ fn part1() {
         if wins > 0 { product *= wins };
     }
 
-    println!("Part1: {}", product);
+    println!("Part 1: {}", product);
 }
 
 fn part2() {
@@ -41,5 +41,5 @@ fn part2() {
         }
     }
 
-    println!("Part1: {}", wins);
+    println!("Part 2: {}", wins);
 }
