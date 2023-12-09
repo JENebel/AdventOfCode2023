@@ -1,3 +1,3 @@
 (executable
- (public_name dec2_ocaml)
+ (public_name dec2)
  (name main))

@@ -1,0 +1,8 @@
+(executable
+ (public_name dec9)
+ (name main)
+ (libraries str))
+
+(env
+(dev
+  (flags (:standard -warn-error -A)))) 
