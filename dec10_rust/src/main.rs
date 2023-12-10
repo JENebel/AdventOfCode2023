@@ -1,9 +1,5 @@
 use std::collections::HashSet;
 
-fn main() {
-    part1();
-}
-
 #[derive(Copy, Clone, Debug)]
 enum Direction {
     Up, Down, Left, Right
@@ -29,7 +25,7 @@ fn get_next((y, x): (usize, usize), moving_dir: Direction, board: &Vec<Vec<char>
     }
 }
 
-fn part1() {
+fn main() {
     let input = include_str!("../../inputs/dec10.input");
     let mut board: Vec<Vec<char>> = Vec::new();
     let lines = input.lines();
