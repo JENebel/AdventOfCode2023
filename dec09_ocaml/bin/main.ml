@@ -13,7 +13,7 @@ let rec rec_reading readings =
     let front, back = rec_reading new_redings in
     print_endline (string_of_int back);
     List.hd readings - front, (readings |> List.rev |> List.hd) + back in
-
+ 
 let lines = ref [] in
 let in_file = open_in "../inputs/dec9.input" in
 try
